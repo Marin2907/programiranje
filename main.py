@@ -52,8 +52,8 @@ if __name__ == "__main__":
         print("Greška pri očišćavanju teksta.")
 
 
-        STOP_WORDS = ['i','u','na','je','se','su','s','za','o','a','pa','te','li','da']
-        def ukloni_stop_words(rjecnik_frekvencija, stop_words_lista):
+STOP_WORDS = ['i','u','na','je','se','su','s','za','o','a','pa','te','li','da']
+def ukloni_stop_words(rjecnik_frekvencija, stop_words_lista):
     novi_rjecnik = {}
     for rijec, frekvencija in rjecnik_frekvencija.items():
         if rijec not in stop_words_lista:
