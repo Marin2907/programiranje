@@ -154,7 +154,7 @@ for index, row in kandidati.iterrows():
 
 # Završni JSON payload
 payload = {
-    "tim": "Matija_Božić",
+    "tim": "Marin_Ladavac",
     "misija": "Jezero_Crater_Drill",
     "nalozi": komande_za_rover
 }
@@ -172,6 +172,4 @@ try:
     else:
         print(f"Greška na serveru. Odgovor: {response.text}")
 
-# Hvatanje grešaka (npr. nema interneta)
-except Exception as e:
-    print(f"Došlo je do greške u komunikaciji: {e}")
+
